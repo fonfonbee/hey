@@ -1,0 +1,9 @@
+心得
+many commands in the tutorial video don't work, probably due to OS or VS.
+git --version (just checking version)
+git status (show all the tracked files and the untracked)
+git add . (track all files)
+git commit -m "messages" (save changes)
+git push (don't add anything)
+
+Don't mess with SSH keys, even if you generated one you have to tell the local ssh-agent about the key. And I've never been this confused when reading the instruction.
