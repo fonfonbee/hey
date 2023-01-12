@@ -8,7 +8,10 @@ let password = "hunter2";
 const NAME = 1;
 //constant name ALL CAPS is common practice
 
-var aa = 33;
-var bb = 5;
-console.log(aa % bb);//=>3 (% for remainder)
+var remainder = 33 % 5; //=3 (% for remainder)
 //can be used to determine odd/even number
+
+var aa = "Test String";
+var strLen = aa.length; //=11 (length property)
+var bb = aa[0]; //bracket notation
+//can't change string using [], can only assign a whole new string
